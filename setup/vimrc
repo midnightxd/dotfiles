@@ -1,0 +1,55 @@
+syntax on
+
+set autoindent
+set smartindent
+set number
+set cursorline
+set mouse=a
+set clipboard=unnamedplus
+set tabstop=4 softtabstop=4 expandtab shiftwidth=4
+set encoding=utf8
+
+set foldmethod=syntax
+set foldlevel=99
+nnoremap <space> za
+
+" My theme
+colorscheme monokai
+
+hi Normal guibg=NONE ctermbg=NONE
+
+"NERDTree
+nnoremap <C-n> :NERDTree<CR>
+nnoremap <C-t> :NERDTreeToggle<CR>
+nnoremap <C-f> :NERDTreeFind<CR>
+
+" Nevegação entre os buffers (airline)
+
+set laststatus=2
+let g:airline#extensions#tabline#enabled = 1
+let g:airline_powerline_fonts = 1
+let g:airline_statusline_ontop=0
+let g:airline_theme='badwof'
+
+let g:airline#extensions#tabline#formatter = 'default'
+" Navegação entre os buffers
+nnoremap <M-Right> :bn<cr>
+nnoremap <M-Left> :bpbp<cr>
+nnoremap <c-x> :bp\|bd #<cr>
+
+" Plugin control P
+let g:ctrlp_custom_ignore = '\v[\/]\.(swp|zip)$' "Ignora a extenção de arquivo citado 
+let g:ctrlp_user_command = ['.git', 'cd %s && git ls-files -co --exclude-standard'] "Ignora os git ginores
+let g:ctrlp_show_hidden = 1 "Exibe os arquivos ocutos
+
+" Plugin NERDcomment
+filetype plugin on
+let g:NERDSpaceDelims = 1
+let g:NERDDefaultAlign = 'left'
+map cc <Plug>NERDCommenterInvert
+
+" Set my symbol indentline
+let g:indentLine_char = '▏'
+
+" Cocnvim
+source ~/.vim/coc.nvimrc

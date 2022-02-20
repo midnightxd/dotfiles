@@ -1,0 +1,13 @@
+Plugins que eu uso:
+
+    auto-pairs
+    nerdtree
+    ctrlp.vim
+    indentLine
+    vim-airline
+    vim-airline-themes
+    vim-devicons (requer powerline fonts ou nerdfonts)
+    vim-monokai
+    vim-pulyglot
+    vim-startify
+    vim-transparent
