@@ -1,2 +1,2 @@
 # Dotfiles
-Configurações gerais sys, TMW.
+Configurações gerais que eu uso.
