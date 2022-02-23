@@ -13,5 +13,4 @@ compositor de janelas para o Xorg.
 
     Montagem dos diretórios do vim packages:
         ~/.vim/pack/packages/start/ seus plugins.
-    Obs: A pasta start contém os plugins qu são carregados na inicialização do
-         vim.
+    Obs: A pasta start contém os plugins que são carregados na inicialização do vim.
