@@ -1,0 +1,7 @@
+libavcodec ---> yes requires on firefox && vivaldi
+xvidcore ---> no
+faad2 --->no
+faac ---> no
+ffmpeg ---> no
+libmp4v2 --> no
+codec2 ---> no
