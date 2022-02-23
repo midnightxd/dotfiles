@@ -7,7 +7,7 @@ Plugins que eu uso:
     vim-airline
     vim-airline-themes
     vim-devicons (requer powerline fonts ou nerdfonts)
-    vim-monokai
+    vim-screry
     vim-pulyglot
     vim-startify
     vim-transparent
