@@ -1,24 +1,26 @@
-Meu setup void linux:
+=============================================================
 
 Sys:
 Void-Linux base.
 TWM: i3.
 
-Minha lista de softwares:
+=============================================================
 
-vim, ranger, zsh, firefox, vscode, git, wget, htop,
-feh, monokai(theme for vim), moc, neofetch, compton, i3,
-i3-gaps, lxappearence, vivaldi, alsa-utils, lxdm, dmenu,
-xfce4-terminal.
+vim, ranger, fish-shell, firefox, git, wget, htop,
+feh, screry(theme for vim), neofetch, compton, i3,
+i3-gaps, i3status, lxappearence, vivaldi, alsa-utils, dmenu,
+mate-terminal.
 
-Libs:
+=============================================================
 
+ffmpeg
 ncurses-6.2_4.
-nodeja-16.13.2.2.
+nodejs-16.13.2.2.
 picom-9.1_1.
 xf86(all).
 xorg-minimal.
 setxkbmap.
 
-Repositório:
+==============================================================
+
 void-repo-nonfreee.
