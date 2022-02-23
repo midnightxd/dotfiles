@@ -1,7 +1,9 @@
+Libs:
+
 libavcodec ---> yes requires on firefox && vivaldi
 xvidcore ---> no
 faad2 --->no
 faac ---> no
-ffmpeg ---> no
+ffmpeg ---> no | requires for discord
 libmp4v2 --> no
 codec2 ---> no
