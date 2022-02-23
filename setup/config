@@ -51,7 +51,7 @@ bindsym $mod+Return exec i3-sensible-terminal
 bindsym $mod+q kill
 
 # start dmenu (a program launcher)
-bindsym $mod+d exec dmenu_run
+bindsym $mod+d exec --no-startup-id dmenu_run
 # A more modern dmenu replacement is rofi:
 # bindcode $mod+40 exec "rofi -modi drun,run -show drun"
 # There also is i3-dmenu-desktop which only displays applications shipping a
@@ -97,10 +97,10 @@ bindsym $mod+w layout tabbed
 bindsym $mod+e layout toggle split
 
 # toggle tiling / floating
-bindsym $mod+Shift+space floating toggle
+bindsym $mod+space floating toggle
 
 # change focus between tiling / floating windows
-bindsym $mod+space focus mode_toggle
+bindsym $mod+Shift+space focus mode_toggle
 
 # focus the parent container
 bindsym $mod+a focus parent
@@ -182,12 +182,7 @@ bindsym $mod+r mode "resize"
 # Start i3bar to display a workspace bar (plus the system information i3status
 # finds out, if available)
 bar {
-     status_command i3status
-     colors {
-        background #000000
-        statusline #00A5FF #that neon blue
-        separator #666666
-	}
+        status_command i3status
 }
 
 ### Remove as bordas das janelas
@@ -201,7 +196,6 @@ gaps outer 5
 exec setxkbmap br
 
 ### Set as background
-exec feh --bg-scale '/home/midnight/Imagens/1366/wallpaperReact.jpg'
-
+exec feh --bg-scale '/home/midnight/Imagens/1366/kiss.jpg'
 ### Remove tearing with compton
 exec --no-startup-id compton --config ~/.config/compton/compton.conf -b
