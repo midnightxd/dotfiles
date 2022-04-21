@@ -1,2 +1,2 @@
 # Dotfiles
-Configurações gerais que eu uso.
+Configurações gerais do meu ambiente de desenvolvimento.

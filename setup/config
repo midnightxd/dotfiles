@@ -196,6 +196,6 @@ gaps outer 5
 exec setxkbmap br
 
 ### Set as background
-exec feh --bg-scale '/home/midnight/Imagens/1366/kiss.jpg'
+exec feh --bg-scale '~/Imagens/1366/kiss.jpg'
 ### Remove tearing with compton
 exec --no-startup-id compton --config ~/.config/compton/compton.conf -b

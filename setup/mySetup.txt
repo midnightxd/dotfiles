@@ -1,17 +1,13 @@
 =============================================================
+System:
 
-Sys:
 Void-Linux base.
 TWM: i3.
 
 =============================================================
 
-vim, ranger, fish-shell, firefox, git, wget, htop,
-feh, screry(theme for vim), neofetch, compton, i3,
-i3-gaps, i3status, lxappearence, vivaldi, alsa-utils, dmenu,
-mate-terminal.
-
 =============================================================
+Librates:
 
 ffmpeg
 ncurses-6.2_4.
