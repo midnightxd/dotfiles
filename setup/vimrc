@@ -2,11 +2,11 @@ syntax on
 
 set autoindent
 set smartindent
-set number
+set relative number
 set cursorline
 set mouse=a
 set clipboard=unnamedplus
-set tabstop=4 softtabstop=4 expandtab shiftwidth=4
+set tabstop=2 softtabstop=2 expandtab shiftwidth=2
 set encoding=utf8
 
 set foldmethod=syntax
@@ -14,8 +14,9 @@ set foldlevel=99
 nnoremap <space> za
 
 " My theme
-colorscheme monokai
+colorscheme "Your theme
 
+" Remove backgroud
 hi Normal guibg=NONE ctermbg=NONE
 
 "NERDTree
@@ -24,14 +25,14 @@ nnoremap <C-t> :NERDTreeToggle<CR>
 nnoremap <C-f> :NERDTreeFind<CR>
 
 " Nevegação entre os buffers (airline)
-
 set laststatus=2
 let g:airline#extensions#tabline#enabled = 1
 let g:airline_powerline_fonts = 1
 let g:airline_statusline_ontop=0
-let g:airline_theme='badwof'
+let g:airline_theme='minimalist'
 
 let g:airline#extensions#tabline#formatter = 'default'
+
 " Navegação entre os buffers
 nnoremap <M-Right> :bn<cr>
 nnoremap <M-Left> :bpbp<cr>

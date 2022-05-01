@@ -182,8 +182,16 @@ bindsym $mod+r mode "resize"
 # Start i3bar to display a workspace bar (plus the system information i3status
 # finds out, if available)
 bar {
+        mode hide
         status_command i3status
 }
+
+### SET BORDER COLOR ###
+#class                  border  backgr. text    indicator
+client.focused          #00ff00 #00ff00 #00ff00 #00ff00
+client.focused_incative #333333 #5f676a #ffffff #484e50
+client.unfocuse         #333333 #222222 #888888 #292d2e
+client.urgen            #2f343a #900000 #ffffff #909090
 
 ### Remove as bordas das janelas
 for_window [class=".*"] border pixel 1
@@ -196,6 +204,6 @@ gaps outer 5
 exec setxkbmap br
 
 ### Set as background
-exec feh --bg-scale '~/Imagens/1366/kiss.jpg'
+exec feh --bg-scale '' ### Your background
 ### Remove tearing with compton
 exec --no-startup-id compton --config ~/.config/compton/compton.conf -b
