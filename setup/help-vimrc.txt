@@ -1,4 +1,4 @@
-Plugins que eu uso:
+### MY VIM PLUGINS ###
 
     auto-pairs --> Auto complete pairs for vim
     nerdtree --> File explore
@@ -6,7 +6,7 @@ Plugins que eu uso:
     indentLine --> Indentline
     vim-airline --> Airline
     vim-airline-themes --> Airline themes
-    vim-devicons (requer powerline fonts ou nerdfonts) --> Icons for terminal
+    vim-devicons (required powerline fonts or nerdfonts) --> Icons for terminal
     vim-molokai --> Theme for vim
     vim-pulyglot --> Highlight syntax
     vim-startify --> Home page and recent files for vim

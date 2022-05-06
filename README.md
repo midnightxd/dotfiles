@@ -1,3 +1,3 @@
 # Dotfiles
 ![Screenshot](vim.png)
-Configurações gerais do meu ambiente de desenvolvimento.
+General settings of my development environment.

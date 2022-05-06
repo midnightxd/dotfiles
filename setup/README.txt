@@ -1,13 +1,20 @@
-Explicação dos arquivos dentro da pasta setup:
+ By:
+ __  __ ___ ____  _   _ ___ ____ _   _ _______  ______  
+|  \/  |_ _|  _ \| \ | |_ _/ ___| | | |_   _\ \/ /  _ \ 
+| |\/| || || | | |  \| || | |  _| |_| | | |  \  /| | | |
+| |  | || || |_| | |\  || | |_| |  _  | | |  /  \| |_| |
+|_|  |_|___|____/|_| \_|___\____|_| |_| |_| /_/\_\____/
 
-1. compton.conf: É o arquivo de configuração do compton. O compton é um
-compositor de janelas para o Xorg.
+Explanation of the files inside the folder setup:
 
-2. config: É o arquivo de configuração do i3wm(requer o i3wm e i3status instalalo).
+I) compton.conf >> Is a file of configuration compton. Compton is a compositor of windows
+for the Xorg (X).
 
-3. 30-touchpad: É minha configuração do touchpad.
+II) config >> Is a file of configuration i3wm.
 
-4. vimrc: É o arquivo de configuração do vim (é nescessário ter os plugins instados).
+III) 30-touchpad >> Is my configuration of touchpad.
+
+IV) vimrc >> Is a file os configuration of vim (Waring: is required plugins).
 
     Localização do arquivo vimrc:
 
@@ -25,4 +32,3 @@ compositor de janelas para o Xorg.
                                 |
                                 +- /start
 
-    Obs: A pasta start contém os plugins que são carregados na inicialização do vim.
