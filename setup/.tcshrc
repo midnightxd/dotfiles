@@ -1,0 +1,13 @@
+#/home/midnightxd/Downloads/shell-color-scripts/colorscripts/./kaisen
+cat ~/Documents/ansi/unix.ansi
+figlet ' midnightxd + + +'
+
+### ALIAS ###
+#alias clear "clear && kaisen"
+#alias warpinator "flatpak run org.x.Warpinator"
+alias ls "ls --color"
+alias ks "cat ~/Documents/ansi/unix.ansi"
+alias mod0 "sudo shutdown -h now"
+alias mod1 "sudo reboot"
+
+#set prompt = "> "
