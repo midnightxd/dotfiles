@@ -1,10 +1,11 @@
-syntax on
+syntax enable
 
 set autoindent
 set smartindent
-set relative number
+set nu!
+"set number relativenumber
 set cursorline
-set mouse=a
+"set mouse=a
 set clipboard=unnamedplus
 set tabstop=2 softtabstop=2 expandtab shiftwidth=2
 set encoding=utf8
@@ -14,9 +15,8 @@ set foldlevel=99
 nnoremap <space> za
 
 " My theme
-colorscheme "Your theme
+colorscheme monokai 
 
-" Remove backgroud
 hi Normal guibg=NONE ctermbg=NONE
 
 "NERDTree
@@ -25,17 +25,18 @@ nnoremap <C-t> :NERDTreeToggle<CR>
 nnoremap <C-f> :NERDTreeFind<CR>
 
 " Nevegação entre os buffers (airline)
+
 set laststatus=2
 let g:airline#extensions#tabline#enabled = 1
 let g:airline_powerline_fonts = 1
 let g:airline_statusline_ontop=0
-let g:airline_theme='minimalist'
+let g:airline_theme='lucius'
 
 let g:airline#extensions#tabline#formatter = 'default'
 
 " Navegação entre os buffers
 nnoremap <M-Right> :bn<cr>
-nnoremap <M-Left> :bpbp<cr>
+nnoremap <M-Left> :bp<cr>
 nnoremap <c-x> :bp\|bd #<cr>
 
 " Plugin control P
@@ -50,7 +51,12 @@ let g:NERDDefaultAlign = 'left'
 map cc <Plug>NERDCommenterInvert
 
 " Set my symbol indentline
+" '▏''
 let g:indentLine_char = '▏'
+
+if (has("termguicolors"))
+ set termguicolors
+endif
 
 " Cocnvim
 source ~/.vim/coc.nvimrc
