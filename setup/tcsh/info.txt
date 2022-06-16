@@ -1,0 +1,9 @@
+It is essentially the C shell with programmable command-line completion, command-line editing, and a few other features. Unlike the other common shells, functions cannot be defined in a tcsh script and the user must use aliases instead (as in csh). It is the native root shell for BSD-based systems such as FreeBSD.
+
+tcsh added filename and command completion and command line editing concepts borrowed from the TENEX operating system, which is the source of the “t”. Because it only added functionality and did not change what was there, tcsh remained backward compatible with the original C shell. Though it started as a side branch from the original csh source tree that Bill Joy had created, tcsh is now the main branch for ongoing development.
+
+tcsh is very stable but new releases continue to appear roughly once a year, consisting mostly of minor bug fixes.
+
+On many systems, such as macOS and Red Hat Linux, csh is actually tcsh. Often one of the two files is either a hard link or a symbolic link to the other, so that either name refers to the same improved version of the C shell.
+
+On Debian and some derivatives (including Ubuntu), there are two different packages: csh and tcsh. The former is based on the original BSD version of csh and the latter is the improved tcsh.
