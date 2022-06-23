@@ -1,9 +1,18 @@
-# Dotfiles
-![Screenshot](1.png)
-![Screenshot](2.png)
-![Screenshot](3.png)
-![Screenshot](4.png)
+<div id="top"></div>
 
-SO: Void Linux GLIBC
-WM: I3
-Code Editor: vim 8
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+  <h3 align="center">i3-wm</h3>
+
+  <p align="center">
+    My i3wm settings!
+    <br />
+    <a href="https://github.com/midnightxd/dotfiles"><strong>Explore the docs</strong></a>
+    <br />
+    <br />
+    <a href="https://github.com/midnightxd/dotfiles/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/midnightxd/dotfiles/issues">Request Feature</a>
+  </p>
+</div>
