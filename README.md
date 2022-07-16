@@ -35,18 +35,15 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-<img src="images/theme3-1.png" alt="Main screen theme 2" height="520">
-<img src="images/theme3-2.png" alt="Code Oss theme 2" height="520">
-<img src="images/theme3-3.png" alt="Code Oss theme 2" height="520">
+<img src="images/2022-07-13-062543_1366x768_scrot.png" alt="Main screen theme 2" height="520">
+<img src="images/2022-07-15-211851_1366x768_scrot.png" alt="Code Oss theme 2" height="520">
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
 <div id="getting-started">
-## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+## Getting Started
 
 ### Prerequisites for window manager
 Attention i3 requires an X server and is not supported by Wayland!
