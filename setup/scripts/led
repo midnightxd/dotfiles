@@ -1,0 +1,29 @@
+#!/usr/bin/env bash
+#==================HEADER============================================|
+#AUTOR
+# Leonardi Melo
+#
+# Git Hub: midnightxd
+# Resolve o problema para ativar o led no teclado exbom
+# Exbom - LED Gaming Keyboard 
+#====================================================================|
+
+#=======================VARIAVEIS
+
+led_off='00000000'
+key_code='78'
+
+# Pegando LED Mask
+LED_STATUS=$(xset -q | grep "LED" | awk '{print $10}')
+
+# Desabilitando Scroll Lock
+xmodmap -e 'keycode ${key_code}='
+
+# Ligando
+if [[ "$LED_STATUS" = "${led_off}" ]]; then
+    xset led 3 # Ligando LED
+else
+    xset -led 3 # Desligando LED
+fi
+
+exit 0
